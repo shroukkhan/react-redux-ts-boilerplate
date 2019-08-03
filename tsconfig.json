@@ -22,5 +22,9 @@
   ],
   "exclude": [
     "public"
+  ],
+  "target": "es6",
+  "lib": [
+    "es6"
   ]
 }
