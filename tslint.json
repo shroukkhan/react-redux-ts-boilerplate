@@ -16,6 +16,8 @@
       "ordered-imports": false,
       "quotemark": [true, "double"],
       "indent": [true, "spaces", 4],
+      "ter-indent":false,
+      "prefer-array-literal":false,
       "no-boolean-literal-compare": false
     }
 }

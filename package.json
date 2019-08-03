@@ -30,14 +30,19 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/classnames": "^2.2.9",
     "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.6",
+    "classnames": "^2.2.6",
     "concurrently": "^4.1.1",
     "css-loader": "^3.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-flip-move": "^3.0.3",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "redux": "^4.0.1",
@@ -61,6 +66,7 @@
   },
   "devDependencies": {
     "@storybook/react": "^5.1.9",
+    "@types/lodash": "^4.14.136",
     "@types/node": "^12.0.10",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
@@ -68,6 +74,8 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/redux-logger": "^3.0.7",
     "@types/seamless-immutable": "^7.1.10",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "webpack-dev-server": "^3.7.2"
   }
 }

@@ -25,9 +25,9 @@ enhancers.push(applyMiddleware(...middleware));
 
 store = createStore(
   combineReducers({
-    ...reducers
+    ...reducers,
   }),
-  compose(...enhancers)
+  compose(...enhancers),
 );
 
 sagaMiddleware.run(rootSaga);
