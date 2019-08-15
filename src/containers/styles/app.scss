@@ -1,0 +1,51 @@
+$control-buttons-panel-width:75px;
+$board-width: calc(100% - 150px);
+$square-width:9.5%;
+$square-height:75px;
+$board-height: 100vh;
+$board-padding: 8px;
+
+#app {
+  width:100%;
+  .numbers {
+    position: relative;
+    width: $board-width;
+    height: $board-height;
+    background: rgba(0,0,0,0.1);
+    padding: $board-padding;
+
+    .square {
+      position: relative;
+      z-index: 1;
+      float: left;
+      width: $square-width;
+      height: $square-height;
+      background-color: white;
+      border-radius: 2px;
+      margin:0.25%;
+    }
+
+    .red {
+      z-index: 2;
+      &:after {
+        background: #ff3251;
+        border-radius: 6px;
+      }
+    }
+
+    .painted {
+      &:after {
+        background: #c3c8a5;
+      }
+    }
+  }
+  .current-cells-indicator {
+    width: $square-width;
+    height: $square-height;
+    top:$square-height;
+    position:absolute;
+    border:2px solid aqua;
+    border-top-width: 0;
+    border-radius: 3px;
+  }
+}
